@@ -59,6 +59,7 @@ h1 {
     height: 70vh;
     background-size: cover;
     opacity: 0.9;
+    background-position: center;
     width: 100%;
 }
 .Learn_More a {
@@ -127,7 +128,6 @@ footer p {
     .container2 {
         height: 100vh;
         width: 100%;
-        padding: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -138,11 +138,10 @@ footer p {
         height: auto;
         display: flex;
         width: 80%;
-        padding: 100px;
+        height: 80vh;
         justify-content: center;
         align-items: center;
         flex-flow: wrap row;
-        gap: 50px;
     }
 
     .banner {
@@ -164,7 +163,7 @@ footer p {
         font-size: 15px;
     }
     .dress {
-        height: 190px;
+        height: 170px;
         opacity: 1;
         cursor: pointer;
         transition: .4s ease-in-out;
